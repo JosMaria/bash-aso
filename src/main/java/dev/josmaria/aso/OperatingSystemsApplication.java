@@ -9,5 +9,4 @@ public class OperatingSystemsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(OperatingSystemsApplication.class, args);
 	}
-
 }
