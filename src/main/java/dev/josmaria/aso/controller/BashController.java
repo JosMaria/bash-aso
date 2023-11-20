@@ -19,4 +19,9 @@ public class BashController {
     public ResponseEntity<String> sayHello() throws IOException, InterruptedException {
         return ResponseEntity.ok(bashService.firstScript());
     }
+
+    @GetMapping
+    public ResponseEntity<?> installFTP() throws IOException, InterruptedException {
+        return ResponseEntity.ok(bashService.installFTP());
+    }
 }
